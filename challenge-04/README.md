@@ -12,27 +12,27 @@ var isTruthy = function( argument ) {
 };
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
-console.log( isTruthy( '' ) );
-console.log( isTruthy( -0 ) );
-console.log( isTruthy( 0 ) );
-console.log( isTruthy( false ) );
-console.log( isTruthy( NaN ) );
-console.log( isTruthy( null ) );
-console.log( isTruthy( undefined ) );
+isTruthy( '' );
+isTruthy( -0 );
+isTruthy( 0 );
+isTruthy( false );
+isTruthy( NaN );
+isTruthy( null );
+isTruthy( undefined );
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-console.log( isTruthy( 'Filipe' ) );
-console.log( isTruthy( 27 ) );
-console.log( isTruthy( {} ) );
-console.log( isTruthy( [] ) );
-console.log( isTruthy( function() {} ) );
-console.log( isTruthy( 2 > 1 ) );
-console.log( isTruthy( 2 + 2 ) );
-console.log( isTruthy( [ 1, 2, 3 ] ) );
-console.log( isTruthy( [ 'Filipe', 'Lemos' ] ) );
-console.log( isTruthy( { nome: 'Filipe', idade: 27 } ) );
+isTruthy( 'Filipe' );
+isTruthy( 27 );
+isTruthy( {} );
+isTruthy( [] );
+isTruthy( function() {} );
+isTruthy( 2 > 1 );
+isTruthy( 2 + 2 );
+isTruthy( [ 1, 2, 3 ] );
+isTruthy( [ 'Filipe', 'Lemos' ] );
+isTruthy( { nome: 'Filipe', idade: 27 } );
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
